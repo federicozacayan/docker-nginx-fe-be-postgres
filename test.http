@@ -1,0 +1,19 @@
+###
+POST http://localhost:3050/api/values
+content-type: application/json
+
+{
+    "value": 1
+}
+
+###
+POST http://localhost:3050/api/values
+content-type: application/json
+
+{
+    "value": 2
+}
+
+
+###
+GET http://localhost:3050/api/values/all
